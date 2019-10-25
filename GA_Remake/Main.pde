@@ -43,6 +43,7 @@ void draw() {
     } 
     else {
         test.update();
+        //the standard function returns true if the Dot has reached the goal, and has achieced a certain level of fitness.
         //if (test.standard()) {
             test.show();
             obstacles.show();
